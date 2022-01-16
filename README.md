@@ -7,8 +7,10 @@ each song is unique
 
 there are several functions for this playlist project as you can loop over to each song:
 
-loading songs function
-play and pause function
+loading songs function,
+
+play and pause function,
+
 next and previous song function
 
 Enjoy :) !
