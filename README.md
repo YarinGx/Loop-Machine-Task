@@ -14,3 +14,7 @@ play and pause function,
 next and previous song function
 
 Enjoy :) !
+
+Host Url : 
+
+https://loop-machine-task.vercel.app/
