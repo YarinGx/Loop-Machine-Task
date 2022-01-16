@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beats Loop Machine</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/2b070e02a1.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container">
+        <div class="music-player">
+            <div class="player"><!--left structure-->
+                <h2 id="title">Song Title</h2>
+                <div class="slidecontainer">
+                    <i class="fas fa-volume-down"></i>
+                    <input type="range" min="0" max="100" value="50" class="slider">
+                    <i class="fas fa-volume-up"></i>
+                </div>
+                <div class="controls">
+                    <button class="previous" id="previous"><i class="fas fa-step-backward"></i></button>
+                    <button class="play-pause" id="play-pause"><i class="fas fa-play"></i></button>
+                    <button class="next" id="next"><i class="fas fa-step-forward"></i></button>
+                </div>
+            </div>
+            <div class="playlist"> <!--right structure-->
+                <h2>Playlist</h2>
+                <ul class="song-list">
+                    <li data-src="assests/ALL TRACK.mp3" data-name="All Track" data-index="0"><span>All Track</span></li>
+                    <li data-src="assests/_tambourine_shake_higher.mp3" data-name="Tambourine" data-index="1"><span>Tambourine</span></li>
+                    <li data-src="assests/B VOC.mp3" data-name="B Voc" data-index="2"><span>B Voc</span></li>
+                    <li data-src="assests/DRUMS.mp3" data-name="Drums" data-index="3"><span>Drums</span></li>
+                    <li data-src="assests/HE HE VOC.mp3" data-name="He He Voc" data-index="4"><span>He He Voc</span></li>
+                    <li data-src="assests/HIGH VOC.mp3" data-name="High Voc" data-index="5"><span>High Voc</span></li>
+                    <li data-src="assests/JIBRISH.mp3" data-name="JIBRISH" data-index="6"><span>JIBRISH</span></li>
+                    <li data-src="assests/LEAD 1.mp3" data-name="LEAD 1" data-index="7"><span>LEAD 1</span></li>
+                    <li data-src="assests/UUHO VOC.mp3" data-name="UUHO VOC" data-index="8"><span>UUHO VOC</span></li>
+                </ul>
+                <audio crossOrigin="anonymous" src="" id="audio"></audio>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
